@@ -1,8 +1,8 @@
 // const conf = {
 //     serverRoute: String(import.meta.env.VITE_SERVER_ROUTE),
 // }
-
+const url = window.location.host + "/api/";
 const conf = {
-    serverRoute: "http://localhost:3000/",
+    serverRoute: url,
 }
 export default conf;
