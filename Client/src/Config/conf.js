@@ -3,6 +3,6 @@
 // }
 
 const conf = {
-    serverRoute: window.location.url,
+    serverRoute: "http://localhost:3000/",
 }
 export default conf;
